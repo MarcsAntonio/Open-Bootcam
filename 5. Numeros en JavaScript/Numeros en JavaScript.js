@@ -7,8 +7,8 @@ let M = parseFloat(height);
 
 let k = parseFloat(weight);
 
-let HM1 = Math.round(height);
-let WK2 = Math.round(weight);
+let HM1 = Math.ceil(height);
+let WK2 = Math.floor(weight);
 
 let Max1 = 1 + Number.MAX_VALUE;
 
